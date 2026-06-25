@@ -1,0 +1,43 @@
+# Normalize text files to LF in the repository for Windows/WSL parity.
+* text=auto
+
+# Source and project files.
+*.css text eol=lf
+*.html text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.cjs text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.mdx text eol=lf
+*.postcss text eol=lf
+
+# Config and data files.
+*.editorconfig text eol=lf
+*.env.example text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.xml text eol=lf
+
+# Shell scripts should stay LF.
+*.sh text eol=lf
+
+# Windows command scripts conventionally use CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary assets.
+*.gif binary
+*.ico binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.png binary
+*.webp binary
